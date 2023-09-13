@@ -20,7 +20,7 @@ void draw() {
 
 void scales(int x, int y) {
   strokeWeight(2);
-fill(30, 50, 90, 20);
+fill(330, 70, 90, 20);
 //more transparent layer
   bezier(x+20, y+20, x+100, y+100, x+50, y+140, x+10, y+25); //bezier curve (edit later to make less pointy?)
 
